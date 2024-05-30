@@ -1,70 +1,77 @@
-# Getting Started with Create React App
+# Warehouse Management Web App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
 
-## Available Scripts
+This web application is designed to manage and display a list of warehouses. It consists of two pages: a listing page and a details page. The app allows users to search, filter, and edit warehouse information efficiently using ReactJS, HTML5, JavaScript, and CSS.
 
-In the project directory, you can run:
+## Functionalities
 
-### `npm start`
+### Page 1: Warehouse Listing
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Search Functionality:**
+  - Search warehouses by warehouse name.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Filter Functionality:**
+  - Filter warehouses based on city.
+  - Filter warehouses based on cluster.
+  - Filter warehouses based on space available limit.
 
-### `npm test`
+- **Data Handling:**
+  - Display the list of warehouses in an optimal and modular way.
+  - Efficient use of Redux/Vuex to manage the state and data flow.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Page 2: Warehouse Details
 
-### `npm run build`
+- **Navigation:**
+  - Clicking on a warehouse item redirects to the warehouse details page.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Edit Functionality:**
+  - Edit warehouse information such as:
+    - Cluster
+    - Warehouse name
+    - City
+    - Space available
+    - Warehouse live status
+  - Add custom fields to a warehouse.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Tech Stack
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **Frontend:**
+  - ReactJS 
+  - HTML5
+  - JavaScript
+  - CSS
 
-### `npm run eject`
+- **State Management:**
+  - Redux 
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- **Routing:**
+  - react-router 
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Additional Packages Used
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- **Axios:** For making HTTP requests.
+- **Tailwind CSS:** For styling the application.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Learnings
 
-## Learn More
+- **API Integration:** Enhanced skills in integrating external APIs for data fetching.
+- **State Management:** Improved understanding of managing state using Redux/Vuex.
+- **User Interface Design:** Gained experience in creating interactive and user-friendly interfaces.
+- **Routing:** Learned efficient ways to handle navigation using react-router/vue-router.
+- **Date and Time Manipulation:** Improved proficiency in manipulating and calculating dates and times.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Future Improvements
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- **Error Handling:** Implement more robust error handling for API requests.
+- **Data Caching:** Implement caching mechanisms to reduce redundant API calls and improve performance.
+- **Additional Features:** Add more custom fields and functionalities as per user requirements.
 
-### Code Splitting
+## Images
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+![img1](https://github.com/Rachitgarg56/warehouses-frontend-assignment/assets/112542259/c88484c7-718f-4b0f-8cf4-07b891729305)
+![img2](https://github.com/Rachitgarg56/warehouses-frontend-assignment/assets/112542259/b9e14a96-3e0e-402e-a3a7-cb34ee7116a2)
+![img3](https://github.com/Rachitgarg56/warehouses-frontend-assignment/assets/112542259/d481f452-947c-4946-b3eb-3e71d9a88458)
+![img4](https://github.com/Rachitgarg56/warehouses-frontend-assignment/assets/112542259/e0dbccee-5ab7-45b7-bd45-7bf05f5f1f9b)
+![img5](https://github.com/Rachitgarg56/warehouses-frontend-assignment/assets/112542259/1ac05e8a-e7e0-4710-a8d8-fa7cc228a1aa)
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
